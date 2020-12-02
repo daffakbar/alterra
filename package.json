@@ -1,0 +1,19 @@
+{
+  "name": "alterra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:tailwindcss": "tailwindcss build ./src/css/styles.css -o ./public/css/styles.css",
+    "tailwindcss:run": " onchange 'tailwind.config.js' 'src/**/*.css' -- npm run tailwindcss:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
